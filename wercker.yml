@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         theme: academic
         flags: --buildDrafts=true
-        version: 0.53
+        version: 0.62.2
     - script:
         name: ls stuff
         code: |
