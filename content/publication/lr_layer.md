@@ -7,7 +7,7 @@ draft = "false"
 publication_types = ["3"]
 publication = "In submission"
 selected = true
-title = "Intriguing Properties of Learned Representations"
+title = "Learning Low Rank Representations"
 url_pdf = "https://arxiv.org/pdf/1804.07090"
 url_preprint = "https://arxiv.org/abs/1804.07090"
 +++

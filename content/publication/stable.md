@@ -5,7 +5,7 @@ date = "2019-12-19"
 math = true
 draft = "false"
 publication_types = ["3"]
-publication = "Stable Rank Normalization for Improved Generalization in Neural Networks and GANs"
+title = "Stable Rank Normalization for Improved Generalization in Neural Networks and GANs"
 url_pdf = "https://openreview.net/pdf?id=H1enKkrFDB"
 url_preprint = "https://openreview.net/pdf?id=H1enKkrFDB"
 +++
