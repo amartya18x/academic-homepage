@@ -33,3 +33,4 @@ deploy:
       token: $GIT_TOKEN
       domain: amartya18x.github.io
       repo: amartya18x/amartya18x.github.io
+      comment: Deploying
