@@ -27,7 +27,7 @@ deploy:
         code: |
           ls -haltr /pipeline/source
     - install-packages:
-        packages: liberror-perl
+        packages: liberror-perl glibc
     - pahnev/gh-pages@0.3.1:
         token: $GIT_TOKEN
         domain: hugo-wercker.ig.nore.me
