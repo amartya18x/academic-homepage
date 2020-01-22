@@ -1,6 +1,8 @@
 box: debian
 build:
   steps:
+    - install-packages:
+        packages: git ssh-client
     - script:
         name: initialize and update git submodules
         code: |
@@ -21,7 +23,7 @@ deploy:
         code: |
           ls -haltr /pipeline/source
     - install-packages:
-        packages: git ssh-client liberror-perl
+        packages: liberror-perl
     - pahnev/gh-pages@0.3.1:
         token: $GIT_TOKEN
         domain: hugo-wercker.ig.nore.me
