@@ -11,6 +11,10 @@ build:
     - arjen/hugo-build:
         version: "HEAD"
         theme: academic
+    - script:
+        name: ls stuff
+        code: |
+          ls -haltr /pipeline/source/public
     
 deploy:
   steps:
