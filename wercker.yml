@@ -2,7 +2,7 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        theme: herring-cove
+        theme: academic
         flags: --buildDrafts=true
         version: 0.53
     - script:
