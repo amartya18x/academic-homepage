@@ -28,9 +28,8 @@ deploy:
         name: ls source
         code: |
           ls -haltr /pipeline/source
-    - pahnev/gh-pages@0.3.1:
-        token: $GIT_TOKEN
-        domain: amartya18x.github.io
-        basedir: public
-        branch: master
-        report: amartya18x.github.io
+    - melvincornelissen/gh-pages@0.4.4:
+      path:   public
+      token: $GIT_TOKEN
+      domain: amartya18x.github.io
+      repo: amartya18x.github.io
