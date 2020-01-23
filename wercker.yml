@@ -11,7 +11,7 @@ build:
     - arjen/hugo-build:
         version: "0.62.2"
         theme: academic
-        flags: --buildDrafts=true
+        flags: --buildDrafts=false
         force_install: true
     - script:
         name: ls stuff

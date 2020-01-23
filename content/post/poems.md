@@ -1,6 +1,6 @@
 +++
 date = "2016-08-03T22:09:00+05:30"
-draft = false
+draft = true
 title = "Peace and piece of mind"
 description="Where daily stuff meets the mileau of a cemetry."
 tags=["poetry"]
