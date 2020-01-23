@@ -1,16 +1,33 @@
 +++
-# About widget.
-widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear in.
+# About/Biography widget.
 
-title = "Biography"
+date = "2016-04-20T00:00:00"
+draft = false
 
-# Choose the user profile to display
-# This should be the username of a profile in your `content/authors/` folder.
-# See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
-author = "admin"
+widget = "about"
+
+# Order that this section will appear in.
+weight = 1
+
+# List your academic interests.
+[interests]
+  interests = [
+    "Machine Learning",
+    "Deep Learning",
+    "Linguistics"
+  ]
+
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "D.Phil in Computer Science"
+  institution = "The University of Oxford"
+  year = 2017
+
+[[education.courses]]
+  course = "B.Tech in Computer Science And Engineering(Minor in Linguistic Theory)"
+  institution = "Indian Institute of Technology, Kanpur"
+  year = 2013
+
 +++
 
 # Biography

@@ -1,26 +1,24 @@
 +++
-# Recent Publications widget.
-# This widget displays recent publications from `content/publication/`.
+# Selected Publications widget.
+# This widget displays publications from `content/publication/` which have
+# `selected = true` in their `+++` front matter.
 
 date = 2016-04-20
 draft = false
 
-title = "Recent Publications"
+title = "Selected Publications"
 subtitle = ""
-widget = "publications"
+widget = "publications_selected"
 
 # Order that this section will appear in.
-weight = 20
-
-# Number of publications to list.
-count = 10
+weight = 10
 
 # List format.
 #   0 = Simple
 #   1 = Detailed
 #   2 = APA
 #   3 = MLA
-list_format = 3
+list_format = 1
 
 # Filter by publication type.
 # -1: Any
