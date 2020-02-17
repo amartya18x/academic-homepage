@@ -20,14 +20,6 @@ build:
     
 deploy:
   steps:
-    - script:
-        name: ls output
-        code: |
-          ls -haltr /pipeline/output
-    - script:
-        name: ls source
-        code: |
-          ls -haltr /pipeline/source
     - melvincornelissen/gh-pages@0.4.4:
       path:   public
       token: $GIT_TOKEN
