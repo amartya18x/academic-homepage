@@ -71,7 +71,7 @@ First, the rank constraint is on a matrix
 Second, minimizing the restriction of $A_\ell$ on a minibatch can result in orthogonal low rank spaces for each minibatch thus having a high dimensional subspace when all the minibatches are combined.
 
 To mitigate these issues, we augment the initial problem as follows:
-#### Augemented problem (our low rank regularizer)
+#### Augmented problem (our low rank regularizer)
 
 
 $$
@@ -83,7 +83,7 @@ $$
   \underbrace{\mathcal{L}_c(A; W, b) = \frac{1}{n} \sum_{i=1}^{n} \Big\\|W^\top(a_i+b) - (a_i+b)\Big\\|_2^2}_{\Large\text{Projection Loss}}$$
  $$ \text{and} \quad \underbrace{\mathcal{L}_n(A) = \frac{1}{n}\sum_{i=1}^n \Big|1 - \\|a_i\\| \Big|}_{\Large \text{Norm Loss}}$$
 
-__Projetion Loss__: Minimizing the projection loss $\mathcal{L}_c$
+__Projection Loss__: Minimizing the projection loss $\mathcal{L}_c$
 ensures that the affine low-rank mappings ($AW$) of the activations
 are close to the original ones i.e. $AW \approx A$. As $W$ is
 low-rank, recalling sub-multiplicity of rank - $\mathrm{rank}(AW)\le \mathrm{min}(\mathrm{rank}(A),\mathrm{rank}(W))$,  $AW$ is also low-rank; thus implicitly~(due to
@@ -101,7 +101,7 @@ Intuitively, we learn a _virtual layer i.e._($W,b$) during training that does tw
 2. Learns to encourage the representations/activations to lie as much as possible entirely on this low dimensional subspace.
 #### Optimizing the Loss
 
-We optimize the loss using an alternate minimization scheme. During forward pass, the loss from the three components $\mathcal{L}, \mathcal{L}_c,\mathcal{L}_n$ are backpropagated through the network. Every $10$ iteration, $W$ is rank thesholded using  column-sampled ensembled Nystr&ouml;m SVD, which is essentially an approximate SVD.
+We optimize the loss using an alternate minimization scheme. During forward pass, the loss from the three components $\mathcal{L}, \mathcal{L}_c,\mathcal{L}_n$ are back-propagated through the network. Every $10$ iteration, $W$ is rank thresholded using  column-sampled ensembled Nystr&ouml;m SVD, which is essentially an approximate SVD.
 
 {{<figure src="/lr_layer/LR_fw_back.png" title="Forward and backward pass through our regularizor.">}}
 
