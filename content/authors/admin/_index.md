@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in a theoretical understanding the behaviours of deep neural networks and designing practical algorithms to avoid some of its unwanted artifacts.  
+bio: I am interested in  understanding the behaviours of deep neural networks and designing practical algorithms to avoid some of its unwanted artifacts.  
 
 interests:
 - Optimization
