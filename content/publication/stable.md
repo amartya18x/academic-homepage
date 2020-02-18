@@ -4,7 +4,9 @@ authors = ["Amartya Sanyal", "Philip H.S. Torr", "Puneet K Dokania"]
 date = "2019-12-19"
 math = true
 draft = "false"
-publication_types = ["3"]
+publication_types = ["1"]
+publication = "Accepted at International Conference in Learning Representations, 2020, Ethiopia"
+publication_short = "ICLR 2020"
 featured=true
 title = "Stable Rank Normalization for Improved Generalization in Neural Networks and GANs"
 url_pdf = "https://openreview.net/pdf?id=H1enKkrFDB"

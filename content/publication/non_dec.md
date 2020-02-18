@@ -5,8 +5,10 @@ date = "2017-07-01"
 math = true
 draft = "false"
 publication_types = ["3"]
-publication = "In submission"
 featured = false
+publication = "Published in Machine Learning, Springer and ECML 2018"
+publication_short = "ECML 2018"
+
 title = "Optimizing Non-decomposable Measures with Deep Networks"
 url_pdf = "https://arxiv.org/pdf/1802.00086"
 url_preprint = "https://arxiv.org/abs/1802.00086"
