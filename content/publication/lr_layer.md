@@ -8,7 +8,7 @@ publication_types = ["3"]
 publication = "In submission"
 featured = true
 title = "Robustness via Deep Low-Rank Representations"
-url_pdf = "https://arxiv.org/pdf/1804.07090"
-url_preprint = "https://arxiv.org/abs/1804.07090"
+url_pdf = "https://arxiv.org/pdf/1804.07090v5"
+url_preprint = "https://arxiv.org/abs/1804.07090v5"
 url_project = "https://amartya18x.github.io/post/lr_layer/"
 +++

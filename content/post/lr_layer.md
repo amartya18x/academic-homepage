@@ -6,7 +6,7 @@ draft: false
 image:
 ---
 
-In this paper ([Full Paper here](https://arxiv.org/abs/1804.07090)), we investigate the relation of the _intrinsic_ dimension of the representation space of deep networks with its robustness. To do this, we introduce an easy-to-implement, end-to-end trainable, scalable  regularizer that enforces low rank structure in the representation space of deep networks; we conduct a variety of experiments to show that the resultant network is largely robust to adversarial and random perturbations. In addition, the low _intrinsic_ dimension also means that the representations (and the model) can be compressed significantly without significant loss in accuracy.
+In this paper ([Full Paper here](https://arxiv.org/abs/1804.07090v5)), we investigate the relation of the _intrinsic_ dimension of the representation space of deep networks with its robustness. To do this, we introduce an easy-to-implement, end-to-end trainable, scalable  regularizer that enforces low rank structure in the representation space of deep networks; we conduct a variety of experiments to show that the resultant network is largely robust to adversarial and random perturbations. In addition, the low _intrinsic_ dimension also means that the representations (and the model) can be compressed significantly without significant loss in accuracy.
 
 ### Low Rank Representations
 
