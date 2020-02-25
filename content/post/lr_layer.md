@@ -6,8 +6,21 @@ draft: false
 image:
 ---
 
-In this paper ([Full Paper here](https://arxiv.org/abs/1804.07090v5)), we investigate the relation of the _intrinsic_ dimension of the representation space of deep networks with its robustness. To do this, we introduce an easy-to-implement, end-to-end trainable, scalable  regularizer that enforces low rank structure in the representation space of deep networks; we conduct a variety of experiments to show that the resultant network is largely robust to adversarial and random perturbations. In addition, the low _intrinsic_ dimension also means that the representations (and the model) can be compressed significantly without significant loss in accuracy.
+In this paper ([Full Paper here](https://arxiv.org/abs/1804.07090v5)), we investigate the relation of the _intrinsic_ dimension of the representation space of deep networks with its robustness.
 
+
+# Objective (TL;DR)
+* Classical machine learning uses dimensionality reduction techniques like PCA to increase the robustness as well as compressibility of data representations.
+
+{{<figure src="/lr_layer/vis_normal_class/vis_normal_class.001.jpeg">}}
+
+* While, modern neural networks are highly successful in a large number of tasks, they have been shown to be vulnerable to input perturbations. We draw inspiration from classical dimensionality reduction techniques and introduce an algorithm to learn robust low rank features without changing the NN architectures.
+{{<figure src="/lr_layer/vis_lr_class/vis_lr_class.001.jpeg" title="Training uses an additional LR Layer, which encourages the Neural Network features to be low rank. During inference, this extra layer is thrown away and the NN features are already low rank.">}}
+
+* To do this, we introduce an easy-to-implement, end-to-end trainable, scalable  regularizer (LR Layer) that enforces low rank structure in the representation space of deep networks.
+* We conduct a variety of experiments to show that the resultant network is largely robust to adversarial and random perturbations without any adversarial training.
+* In addition, the low _intrinsic_ dimension also means that the representations (and the model) can be compressed significantly (almost 400x) without significant loss in accuracy.
+# TL;SR
 ### Low Rank Representations
 
 {{% alert hint %}}
