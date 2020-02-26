@@ -125,7 +125,7 @@ imperceptible) input perturbations that, when added to a clean input, flips the 
 of the model on the input to an incorrect
 one.
 
-{{<figure src="/lr_layer/adv_pig.png" title="An example of an image of a pig that is initially correctly classified by a classifier. On adding a small impertible perturbation, the same classifier mis-classifies it as an airliner. <a href='#adv_ref'>[a]</a>" lightbpx="true">}}
+{{<figure src="/lr_layer/adv_pig.png" title="An example of an image of a pig that is initially correctly classified by a classifier. On adding a small imperceptible perturbation, the same classifier mis-classifies it as an airliner. <a href='#adv_ref'>[a]</a>" lightbox="true">}}
 
 We look at the adversarial robustness of our model as compared to a vanilla model i.e. one without our regularizor; and also with some other methods that impose constraints on the parameter space. We test it against two main adversaries -
 1. one that is computationally constrained where we measure the success of the adversarial attack for different computational budgets,
