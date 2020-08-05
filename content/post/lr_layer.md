@@ -1,6 +1,6 @@
 ---
 title: "Robustness via Deep Low-Rank Representations"
-subtitle: "Amartya Sanyal, Varun Kanade, Puneet K. Dokania, Philip HS. Torr"
+authors: ["Amartya Sanyal", "Puneet K. Dokania", "Varun Kanade", "Philip H.S. Torr"]
 date: 2020-01-23T12:40:23Z
 draft: false
 image:

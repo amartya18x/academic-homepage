@@ -21,11 +21,11 @@ weight = 1
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "D.Phil in Computer Science"
-  institution = "The University of Oxford"
+  institution = "University of Oxford"
   year = 2017
 
 [[education.courses]]
-  course = "B.Tech in Computer Science And Engineering(Minor in Linguistic Theory)"
+  course = "B.Tech in Computer Science And Engineering (Minor in Linguistic Theory)"
   institution = "Indian Institute of Technology, Kanpur"
   year = 2013
   
