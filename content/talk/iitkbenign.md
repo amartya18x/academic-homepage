@@ -33,7 +33,7 @@ links:
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: "https://arxiv.org/abs/2007.04028"
-url_slides: ""
+url_slides: "files/benign_slides.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
