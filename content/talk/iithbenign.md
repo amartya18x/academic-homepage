@@ -1,7 +1,7 @@
 ---
 title: How Benign is Benign Overfitting ?
 event: ""
-event_url: "https://cse.iith.ac.in/talks/2020-08-18-Amartya-Sanyal-how-benign-is-benign-overfitting-in-deep-neural-networks.html"
+event_url: ""
 
 
 summary: Talk at the department of Computer Science, IIT Hyderabad.
