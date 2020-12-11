@@ -6,7 +6,7 @@ math = true
 draft = "false"
 publication_types = ["1"]
 publication = "Accepted at International Conference in Learning Representations, 2020, Ethiopia"
-publication_short = "ICLR 2020"
+publication_short = "Accepted at International Conference on Learning Representations, 2020"
 featured=true
 title = "Stable Rank Normalization for Improved Generalization in Neural Networks and GANs"
 url_pdf = "https://openreview.net/pdf?id=H1enKkrFDB"

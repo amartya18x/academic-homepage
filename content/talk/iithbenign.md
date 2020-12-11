@@ -30,7 +30,7 @@ links:
 #- icon: twitter
 #  icon_pack: fab
 #  name: Follow
-url: "https://cse.iith.ac.in/talks/2020-08-18-Amartya-Sanyal-how-benign-is-benign-overfitting-in-deep-neural-networks.html"
+#url: "https://cse.iith.ac.in/talks/2020-08-18-Amartya-Sanyal-how-benign-is-benign-overfitting-in-deep-neural-networks.html"
 url_code: ""
 url_pdf: "https://arxiv.org/abs/2007.04028"
 url_slides: "files/benign_slides.pdf"

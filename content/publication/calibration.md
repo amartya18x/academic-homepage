@@ -7,11 +7,12 @@ authors= ["Jishnu Mukhoti", "Viveka Kulharia", "Amartya Sanyal", "Stuart Golodet
 math = true
 draft = "false"
 publication_types = ["3"]
-publication = "Workshop on Uncertainty and Robustness in Deep Learnning , ICML 2020. (Spotlight Paper) "
+publication = "Accepted at Neural Information Processing Systems, 2020"
 date= 2020-02-21
 featured= false
 
 url_pdf = "https://arxiv.org/pdf/2002.09437"
 url_preprint = "https://arxiv.org/abs/2002.09437"
-url_project=""
+url_code="https://github.com/torrvision/focal_calibration"
+url_project="https://torrvision.github.io/focal_calibration/"
 +++
