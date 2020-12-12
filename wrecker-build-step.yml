@@ -4,5 +4,5 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.17"
-        theme: herring-cove
+        theme: academic
         flags: --buildDrafts=true
